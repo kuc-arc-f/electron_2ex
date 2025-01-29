@@ -21,6 +21,11 @@ yarn build
 yarn start
 ```
 ***
+* build
+```
+yarn package
+```
+***
 * edit, watch mode ( other window )
 ```
 yarn watch
