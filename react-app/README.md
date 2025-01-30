@@ -10,7 +10,7 @@
 
 ***
 
-electron + react
+electron + react app , example
 
 ***
 ### setup
@@ -29,6 +29,14 @@ yarn package
 * edit, watch mode ( other window )
 ```
 yarn watch
+```
+
+***
+* .env
+* API_URL , API_KEY set
+```
+VITE_API_URL=https://localhost
+VITE_API_KEY="123"
 ```
 ***
 ### ChangeLog
