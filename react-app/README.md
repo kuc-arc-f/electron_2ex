@@ -38,6 +38,12 @@ yarn watch
 VITE_API_URL=https://localhost
 VITE_API_KEY="123"
 ```
+
+***
+### API Server
+
+https://github.com/kuc-arc-f/d1-project8git
+
 ***
 ### ChangeLog
 * VER_0_9_1 : new
