@@ -51,6 +51,7 @@ https://github.com/kuc-arc-f/d1-project8git
 ***
 ### blog 
 
+https://zenn.dev/link/comments/50328c94c6a7c1
 
 ***
 
