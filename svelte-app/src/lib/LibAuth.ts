@@ -1,10 +1,10 @@
-import LibDbSession from '$lib/LibDbSession';
-import LibConfig from '$lib/LibConfig';
-import LibCookie from './LibCookie';
+//import LibDbSession from '$lib/LibDbSession';
+import LibConfig from './LibConfig';
+//import LibCookie from './LibCookie';
 //
 const LibAuth = {
   /**
-   * validLogin:
+   *
    * @param key: any
    *
    * @return
@@ -12,6 +12,7 @@ const LibAuth = {
   validLogin: async function(): Promise<any>
   {
     try {
+      /*
       let ret = false;
       const user = await LibDbSession.get(LibConfig.SESSION_KEY_USER);
 console.log(user);
@@ -20,6 +21,7 @@ console.log(user);
       }
       ret = true;
       return ret;
+      */
     } catch (e) {
       console.error(e);
     }

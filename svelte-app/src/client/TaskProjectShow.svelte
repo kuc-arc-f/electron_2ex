@@ -5,14 +5,12 @@ import { onMount } from 'svelte';
 import TaskIndex from "./task_items/CrudIndex";
 import IndexRow from "./task_project_show/IndexRow.svelte";
 //export let id;
-//import { EditId, itemId } from './stores';
 //import LibConfig from '$lib/LibConfig';
 //import LibCommon from '$lib/LibCommon';
 import CrudShow from './task_project/CrudShow';
 import CrudIndex from './task_project/CrudIndex';
 import TaskCrud from './task_items/Crud';
-//import ModalShow from "./ModalShow.svelte";
-//
+
 /** @type {import('./$types').PageData} */
 export let data: any, item: any= {}, post_id = 0, content = "", id = 0;
 let items: any[] = [], itemsNone = [], itemsWorking = [], itemsComplete = [];
@@ -109,7 +107,9 @@ console.log("parentShowFunction=", id);
         </a>
     </div>
     <div class="col-md-6 text-end">
-      <a class="btn btn-primary mx-4" href={`/task_items/create?id=${id}`}>Create</a>
+      <a class="btn btn-primary mx-4" 
+      use:link
+      href={`/task_items/create?id=${id}`}>Create</a>
     </div>
   </div>
   <div class="items-center justify-between mt-2 p-4 bg-white rounded-lg shadow">

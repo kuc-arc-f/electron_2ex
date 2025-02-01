@@ -67,7 +67,7 @@ const search = async function() {
         <div class="col-md-6">
             <h1 class="text-3xl font-bold">project</h1></div>
         <div class="col-md-6 text-end">
-            <a href={`/task_project/create`} class="btn btn-primary">Create
+            <a use:link href={`/task_project/create`} class="btn btn-primary">Create
             </a>
         </div>
         <hr class="my-1" />
@@ -96,12 +96,14 @@ const search = async function() {
         <a href={`/task_project_show?id=${item.id}`} use:link
          class="btn btn-sm btn-outline-blue">Show
         </a>
+        <!--
         <a class="btn btn-sm btn-outline-blue" use:link
         href={`/task_project/edit?id=${item.id}`}>Edit
         </a>
         <button on:click={nextPage(`/task_project_gantt?id=${item.id}`)}
           class="btn btn-sm btn-outline-blue">Gantt
         </button>
+        -->
       </div>
       <hr class="my-2" />
     </div>

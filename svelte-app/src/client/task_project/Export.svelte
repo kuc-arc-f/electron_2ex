@@ -97,7 +97,8 @@ const exportGantt = async function () {
 <div class="container my-2">
     <div class="row">
         <div class="col-md-6">
-            <a href={`/task_project`} class="btn btn-outline-primary">Back
+            <a href={`/task_project`} class="btn-outline-blue"
+            use:link>Back
             </a>
         </div>
         <div class="col-md-6 text-end">

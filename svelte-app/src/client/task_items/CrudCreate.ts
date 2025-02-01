@@ -1,8 +1,8 @@
-import LibConfig from '../../lib/LibConfig';
+//import LibConfig from '../../lib/LibConfig';
 import Crud from './Crud';
-import HttpCommon from '../../lib/HttpCommon';
-import LibAuth from '$lib/LibAuth';
-import ApiUtil from '$lib/ApiUtil';
+//import HttpCommon from '../../lib/HttpCommon';
+import LibAuth from '../../lib/LibAuth';
+import ApiUtil from '../../lib/ApiUtil';
 
 const CrudCreate = {
 

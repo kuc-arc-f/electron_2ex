@@ -1,5 +1,7 @@
 <script lang="ts">
 //import TaskIndex from "../../task_items/CrudIndex";
+import {location, querystring} from 'svelte-spa-router';
+import {link} from 'svelte-spa-router';
 import LibCommon from '../../lib/LibCommon';
 export let id, title, status, date, parentShowFunction;
 let bg_status_color = "";
@@ -36,7 +38,8 @@ console.log("showModal= ", id)
             <div class="card_col_body  p-md-0">
               <a href="#" on:click={showModal(id)}><span class="task_title fs-5">{title}</span>
               </a><br />              
-              <a href={`/task_items/edit?id=${id}`}><span class="task_title mx-2">[Edit]</span>
+              <a href={`/task_items/edit?id=${id}`}
+              use:link><span class="task_title mx-2">[Edit]</span>
               </a>
               <span>{date}, ID: {id}</span>
             </div>
