@@ -8,6 +8,8 @@
     </span>
     <span><a href="/about" use:link>[ about ]</a>
     </span>
+    <span><a href="/todo" use:link>[ todo ]</a>
+    </span>    
     <span><a href="/task_project" use:link>[ TaskProject ]</a>
     </span>
   </div>

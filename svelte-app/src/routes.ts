@@ -6,6 +6,7 @@ import TaskProjectExport from './client/task_project/Export.svelte';
 import TaskItemsCreate from './client/task_items/Create.svelte'
 import TaskItemsEdit from './client/task_items/Edit.svelte'
 import TaskProjectCreate from './client/task_project/Create.svelte';
+import Todo from './client/Todo.svelte'
 //console.log("App.svelte");
 
 export const routes = {
@@ -17,4 +18,5 @@ export const routes = {
   '/task_project': TaskProject,
   '/task_items/create': TaskItemsCreate,
   '/task_items/edit': TaskItemsEdit,
+  '/todo': Todo,
 }
