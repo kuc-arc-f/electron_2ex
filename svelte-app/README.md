@@ -6,7 +6,7 @@
 
  date    : 2025/01/31
 
- update  :
+ update  : 2025/02/01
 
 ***
 
@@ -30,6 +30,18 @@ yarn package
 ```
 yarn watch
 ```
+***
+* .env
+* API_URL , API_KEY set
+```
+VITE_API_URL=https://localhost
+VITE_API_KEY="123"
+```
+***
+### API Server
+
+https://github.com/kuc-arc-f/d1-project8git
+
 ***
 ### ChangeLog
 * VER_0_9_1 : new
