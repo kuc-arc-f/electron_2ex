@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "js,jsx,ts,tsx,vue", 
+  "ignore": ["src/**/*.txt"],
+  "exec": "npm run build"
+}
